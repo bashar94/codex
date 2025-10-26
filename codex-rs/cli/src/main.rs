@@ -23,7 +23,7 @@ use codex_responses_api_proxy::Args as ResponsesApiProxyArgs;
 use codex_tui::AppExitInfo;
 use codex_tui::Cli as TuiCli;
 use dirs::home_dir;
-use codex_tui::UpdateAction;
+use codex_tui::updates::UpdateAction;
 use owo_colors::OwoColorize;
 use std::fs;
 use std::path::PathBuf;
